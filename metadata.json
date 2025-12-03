@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Colton's KiCad Library",
+    "description": "A personal set of symbol Libraries and a set of footprints and 3d models",
+    "description_full": "",
+    "identifier": "com.github.ColtonTshudy.ct-lib-kicad",
+    "type": "library",
+    "author": {
+        "name": "Colton Tshudy",
+        "contact": {
+            "email": "coltondtshudy@gmail.com",
+            "web": "https://coltontshudy.com/"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/ColtonTshudy/ct-lib-kicad"
+    },
+    "tags": [
+        "footprints",
+        "symbols"
+    ],
+    "versions": [
+        {
+            "version": "2025.12.03",
+            "status": "stable",
+            "kicad_version": "9.0"
+        }
+    ]
+}
