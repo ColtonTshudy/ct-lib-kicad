@@ -13,7 +13,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capcitor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56,7 +56,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,10 +80,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Voltage Rated" ""
+		(property "Voltage" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,6 +195,24 @@
 			)
 		)
 		(property "Description" "802.15.4, Bluetooth Bluetooth v5.3, Zigbee® Transceiver Module 2.4GHz PCB Trace Surface Mount"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "ESP32-H2-MINI-1-H2S"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1234,7 +1251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1243,7 +1260,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1252,7 +1269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1339,6 +1356,167 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "L"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Indcutor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "L99BM114-TR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1388,11 +1566,20 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "STMicroelectronics"
+		(property "Manufacturer" "STMicroelectronics"
 			(at -12.7 -1.016 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "L99BM114-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2668,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2677,7 +2864,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2919,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2945,7 +3132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2954,7 +3141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2963,7 +3150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2978,7 +3165,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "R_0_1"
@@ -3034,87 +3228,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CC0603KRX7R0BB473"
-		(extends "C")
-		(property "Reference" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47nF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 47nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R0BB473"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "100V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(symbol "MPZ2012S102ATD25"
 		(extends "FB")
 		(property "Reference" "FB"
@@ -3151,7 +3264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 1.5A 150mOhm"
+		(property "Description" "1 Power Line Ferrite Bead 0805 (2012 Metric) 1.5A 150mOhm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3160,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "TDK Corporation"
+		(property "Manufacturer" "TDK Corporation"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3169,80 +3282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPZ2012S102ATD25"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "RTT20R039FTE"
-		(extends "R")
-		(property "Reference" "R"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39R"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 200V 39Ω 750mW ±1% 2010 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CQ1007F390JT4E"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
+		(property "Part" "MPZ2012S102ATD25"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3297,7 +3337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "TOSHIBA"
+		(property "Manufacturer" "TOSHIBA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3306,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TK11S10N1L,LQ"
+		(property "Part" "TK11S10N1L,LQ"
 			(at 0 0 0)
 			(effects
 				(font
